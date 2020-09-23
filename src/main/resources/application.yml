@@ -1,0 +1,15 @@
+##开放的端口
+server:
+  port: 5622
+spring:
+  application:
+    name: pgsql
+  ##pgsql配置信息
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/test
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: a13737014151
+##指定mapper.xml的路径
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
